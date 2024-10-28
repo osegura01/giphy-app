@@ -9,6 +9,7 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+        <link rel="icon" href="https://developers.giphy.com/branch/master/favicon-32x32.png?v=22918c3c9ee5a9845590e3d909ab493c" type="image/png">
 
         <!-- Styles / Scripts -->
         @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
@@ -19,7 +20,7 @@
             </style>
         @endif
     </head>
-    <body class="font-sans antialiased bg-white">
+    <body class="pt-16 font-sans antialiased bg-white">
         <!-- start navbar -->
         @include('base.navbar')
         <!-- end navbar -->
