@@ -11,6 +11,7 @@
                                 placeholder="  search something" />
                     </div>
                 </div>
+                <div class="mt-2" id="imgresults"></div>
             </div>
         </div>
     </div>
