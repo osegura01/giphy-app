@@ -8,8 +8,14 @@
             </div>
             <div class="md:block">
                 <div class="ml-10 flex items-baseline space-x-4">
-                    <a href="/" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Index</a>
-                    <a href="/login" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Login</a>
+                    <a href="/" class="text-gray-300 hover:bg-gray-700 hover:text-gray px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                    @guest
+                    <a href="/login" class="text-gray-300 hover:bg-gray-700 hover:text-gray px-3 py-2 rounded-md text-sm font-medium">Login</a>
+                    @endguest
+                    @auth
+                    <a href="/dashboard" class="text-gray-300 hover:bg-gray-700 hover:text-gray px-3 py-2 rounded-md text-sm font-medium">Dashboard</a>
+                    <a href="/logout" class="text-gray-300 hover:bg-gray-700 hover:text-gray px-3 py-2 rounded-md text-sm font-medium">Logout</a>
+                    @endauth
                 </div>
             </div>
         </div>

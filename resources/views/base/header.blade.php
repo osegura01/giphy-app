@@ -25,5 +25,4 @@
         @include('base.navbar')
         <!-- end navbar -->
         <div class="bg-gray-50 text-black/50 bg-white">
-            <!-- <img id="background" class="absolute -left-20 top-0 max-w-[877px]" src="https://laravel.com/assets/img/welcome/background.svg" alt="Laravel background" /> -->
             <div class="relative min-h-screen flex flex-col items-center justify-center">
