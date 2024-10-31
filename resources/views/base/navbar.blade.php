@@ -1,4 +1,4 @@
-<nav class="fixed top-0 left-0 w-full bg-gray-800 h-16 min-h-[64px] z-50">
+<nav class="sticky top-0 left-0 w-full bg-gray-800 h-16 min-h-[64px] z-50">
     <div class="h-full flex items-center justify-between max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center">
             <div class="flex-shrink-0">
