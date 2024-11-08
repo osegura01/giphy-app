@@ -24,5 +24,3 @@
         <!-- start navbar -->
         @include('base.navbar')
         <!-- end navbar -->
-        <div class="bg-gray-50 text-black/50 bg-white">
-            <div class="relative min-h-screen flex flex-col items-center justify-center">
