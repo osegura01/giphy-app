@@ -20,7 +20,7 @@
             </style>
         @endif
     </head>
-    <body class="pt-16 font-sans antialiased bg-white">
+    <body class="font-sans antialiased bg-white">
         <!-- start navbar -->
         @include('base.navbar')
         <!-- end navbar -->
