@@ -1,6 +1,6 @@
 @include('base.header')
 <div class="bg-gray-50 text-black/50 bg-white">
-    <div class="relative min-h-screen flex flex-col items-center justify-center">
+    <div class="relative min-h-screen flex flex-col items-center">
         <div class="relative w-full max-w-2xl px-6 lg:max-w-7xl">
             <header class="grid grid-cols-2 items-center gap-2 py-10 lg:grid-cols-3">
                 <div class="flex lg:justify-center lg:col-start-2">
