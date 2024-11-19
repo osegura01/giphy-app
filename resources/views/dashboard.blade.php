@@ -2,7 +2,7 @@
 <div class="container mx-auto p-6">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div class="bg-white p-6 rounded-lg shadow-md">
-            <h2 class="text-xl font-semibold mb-6">Registro</h2>
+            <h2 class="text-xl font-semibold mb-6">Perfil</h2>
             <form class="space-y-4">
                 <div class="space-y-2">
                     <label class="block text-sm font-medium text-gray-700">Nombre</label>
@@ -56,7 +56,7 @@
         </div>
 
         <div class="bg-white p-6 rounded-lg shadow-md">
-            <h2 class="text-xl font-semibold mb-6">Registros</h2>
+            <h2 class="text-xl font-semibold mb-6">Historial de búsqueda</h2>
             <div class="overflow-x-auto">
                 <table class="min-w-full divide-y divide-gray-200">
                     <thead class="bg-gray-50">
